@@ -1,0 +1,80 @@
+[
+    {
+      "from": "Frankfurt(Main)Hbf",
+      "to": "Köln Hbf",
+      "starttime": "08:16",
+      "endtime": "09:33"
+    },
+    {
+      "from": "Stuttgart Hbf",
+      "to": "Koblenz Hbf",
+      "starttime": "09:37",
+      "endtime": "12:11"
+    },
+    {
+      "from": "Duisburg Hbf",
+      "to": "Frankfurt(Main)Hbf",
+      "starttime": "07:54",
+      "endtime": "09:48"
+    },
+    {
+      "from": "Frankfurt(Main)Hbf",
+      "to": "Karlsruhe Hbf",
+      "starttime": "17:20",
+      "endtime": "18:52"
+    },
+    {
+      "from": "Frankfurt(Main)Hbf",
+      "to": "München Hbf",
+      "starttime": "17:50",
+      "endtime": "21:13"
+    },
+    {
+      "from": "Erfurt Hbf",
+      "to": "Frankfurt(Main)Hbf",
+      "starttime": "12:18",
+      "endtime": "14:36"
+    },
+    {
+      "from": "Halle(Saale)Hbf",
+      "to": "Frankfurt(Main)Hbf",
+      "starttime": "14:18",
+      "endtime": "16:59"
+    },
+    {
+      "from": "Dresden Hbf",
+      "to": "Frankfurt(Main)Hbf",
+      "starttime": "10:10",
+      "endtime": "14:36"
+    },
+    {
+      "from": "Frankfurt(Main)Hbf",
+      "to": "Berlin Hbf",
+      "starttime": "08:58",
+      "endtime": "12:55"
+    },
+    {
+      "from": "Frankfurt(Main)Hbf",
+      "to": "Doncaster",
+      "starttime": "10:26",
+      "endtime": "17:56"
+    },
+    {
+      "from": "Hannover Hbf",
+      "to": "Frankfurt(Main)Hbf",
+      "starttime": "14:01",
+      "endtime": "17:09"
+    },
+    {
+      "from": "Hamburg Hbf",
+      "to": "Frankfurt(Main)Hbf",
+      "starttime": "17:28",
+      "endtime": "22:03"
+    },
+    {
+      "from": "Hamburg Hbf",
+      "to": "Berlin Hbf",
+      "starttime": "14:04",
+      "endtime": "15:55"
+    }
+  ]

@@ -1,0 +1,204 @@
+/* Default styles */
+
+@font-face {
+  font-family: 'dbscreensans';
+  src: url(./fonts/dbscreensans-regular.woff2) format('woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'dbscreensans';
+  src: url(./fonts/dbscreensans-semibold.woff2) format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'dbscreensans';
+  src: url(./fonts/dbscreensans-bold.woff2) format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'dbscreenhead';
+  src: url(./fonts/dbscreenhead-black.woff2) format('woff2');
+  font-weight: bolder;
+}
+
+* {
+  font-family: dbscreensans;
+  font-weight: normal;
+}
+
+.main {
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  background-color: #EC0016;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px 18px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 0px;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #ffc1c7;
+}
+
+.headline {
+  margin-bottom: 7px;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.redline {
+  padding: 3px;
+  width: 38px;
+  background-color: #EC0016;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.grayline {
+  width: 100%;
+  background-color: lightgray;
+  height: 0.3rem;
+  margin: auto;
+}
+
+.timeline {
+  padding-top: 30px;
+}
+
+.timelineItem {
+  padding-top: 15px;
+}
+
+.circle {
+  color: lightgray;
+  width: 7px;
+  height: 7px;
+  padding: 3px;
+  border-radius: 10px;
+  border: solid 3px currentColor;
+  background-clip: content-box;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 50px;
+}
+
+.fromHbf {
+  flex: 0 33%;
+  float: left;
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.rideDuration {
+  flex: 1 33%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.toHbf {
+  flex: 2 33%;
+  float: right;
+  text-align: right;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.fromTime {
+  flex: 0 50%;
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0.4rem;
+}
+
+.toTime {
+  flex: 1 50%;
+  float: right;
+  text-align: right;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0.4rem;
+}
+
+.line {
+  display: flex;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 90%;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .Headline {
+    font-size: 18px;
+  }
+
+  .redline {
+    width: 30px;
+  }
+
+  .fromHbf,
+  .toHbf,
+  .fromTime,
+  .toTime {
+    font-size: 16px;
+  }
+
+  .rideDuration {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  button {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .headline {
+    font-size: 16px;
+  }
+
+  .redline {
+    width: 20px;
+  }
+
+  .fromHbf,
+  .toHbf,
+  .fromTime,
+  .toTime {
+    font-size: 14px;
+  }
+
+  .rideDuration {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
